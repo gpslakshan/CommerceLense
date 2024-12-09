@@ -7,13 +7,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useMenuStore } from "@/store/toggleMenuStore";
 
 const Logo = () => {
-  const { isOpen } = useMenuStore();
+  const { isCollapsed } = useMenuStore();
 
   return (
     <Link href="/" className="flex items-center gap-2">
       <Image src="/logo-icon.svg" alt="logo" width={30} height={30} />
       <AnimatePresence initial={false}>
-        {!isOpen && (
+        {!isCollapsed && (
           <motion.h1
             initial={{ width: 0, opacity: 0 }}
             animate={{ width: "auto", opacity: 1 }}

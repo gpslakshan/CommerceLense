@@ -2,17 +2,17 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 type MenuState = {
-  isOpen: boolean;
+  isCollapsed: boolean;
   toggleMenu: () => void;
 };
 
 export const useMenuStore = create<MenuState>()(
   persist(
     (set) => ({
-      isOpen: false,
+      isCollapsed: false,
       toggleMenu: () =>
         set((state) => ({
-          isOpen: !state.isOpen,
+          isCollapsed: !state.isCollapsed,
         })),
     }),
     { name: "menu-store" }

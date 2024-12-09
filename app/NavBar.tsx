@@ -6,7 +6,7 @@ import Logo from "@/components/Logo";
 
 const NavBar = () => {
   return (
-    <div className="py-3 px-2 flex justify-between items-center border-b shadow-md">
+    <div className="py-3 px-4 flex justify-between items-center border-b shadow-md">
       <div className="flex items-center gap-2">
         <Logo />
         <MenuToggle />

@@ -7,15 +7,15 @@ import { useMenuStore } from "@/store/toggleMenuStore";
 import { motion } from "framer-motion";
 
 const MenuToggle = () => {
-  const { isOpen, toggleMenu } = useMenuStore();
+  const { isCollapsed, toggleMenu } = useMenuStore();
 
   return (
     <Button variant="ghost" size="icon" onClick={toggleMenu}>
       <motion.div
-        animate={{ rotate: isOpen ? 360 : 0 }}
+        animate={{ rotate: isCollapsed ? 360 : 0 }}
         transition={{ duration: 0.5 }}
       >
-        {isOpen ? <ChevronsRight /> : <ChevronsLeft />}
+        {isCollapsed ? <ChevronsRight /> : <ChevronsLeft />}
       </motion.div>
     </Button>
   );
