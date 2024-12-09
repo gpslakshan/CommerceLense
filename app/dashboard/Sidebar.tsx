@@ -18,9 +18,9 @@ const Sidebar = () => {
         isCollapsed ? "max-md:hidden gap-10" : "block justify-between"
       }`}
     >
-      <h2 className={`text-sm max-md:hidden ${isCollapsed && "hidden"}`}>
+      {/* <h2 className={`text-sm max-md:hidden ${isCollapsed && "hidden"}`}>
         Main Menu
-      </h2>
+      </h2> */}
       <MenuLinks />
       <LogoutButton />
     </motion.aside>
