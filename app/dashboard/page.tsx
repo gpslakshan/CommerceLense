@@ -1,6 +1,7 @@
 import React from "react";
 import Summary from "@/app/dashboard/_components/Summary";
 import { SalesBarChart } from "@/app/dashboard/_components/SalesBarChart";
+import { VisitorsRadarChart } from "@/app/dashboard/_components/VisitorsRadarChart";
 
 const DashboardIndexPage = () => {
   return (
@@ -9,6 +10,7 @@ const DashboardIndexPage = () => {
 
       <div className="grid lg:grid-cols-2 gap-10">
         <SalesBarChart />
+        <VisitorsRadarChart />
       </div>
     </div>
   );
