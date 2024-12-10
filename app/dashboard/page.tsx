@@ -4,6 +4,8 @@ import { SalesBarChart } from "@/app/dashboard/_components/SalesBarChart";
 import { VisitorsRadarChart } from "@/app/dashboard/_components/VisitorsRadarChart";
 import TopProducts from "@/app/dashboard/_components/TopProducts";
 import { TrafficPieChart } from "@/app/dashboard/_components/TrafficPieChart";
+import TopCustomers from "@/app/dashboard/_components/TopCustomers";
+import { TrafficBarChart } from "@/app/dashboard/_components/TrafficBarChart";
 
 const DashboardIndexPage = () => {
   return (
@@ -18,6 +20,11 @@ const DashboardIndexPage = () => {
       <div className="grid lg:grid-cols-2 gap-10">
         <TopProducts />
         <TrafficPieChart />
+      </div>
+
+      <div className="grid lg:grid-cols-2 gap-10">
+        <TrafficBarChart />
+        <TopCustomers />
       </div>
     </div>
   );
