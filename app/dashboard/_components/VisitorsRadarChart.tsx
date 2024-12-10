@@ -40,7 +40,7 @@ export function VisitorsRadarChart() {
     >
       <ChartContainer
         config={chartConfig}
-        className="mx-auto aspect-square max-h-[250px]"
+        className="mx-auto aspect-square max-h-[350px]"
       >
         <RadarChart
           data={chartData}

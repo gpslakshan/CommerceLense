@@ -36,7 +36,11 @@ export function SalesBarChart() {
       description="Showing Mobile & Desktop Sales"
     >
       <ChartContainer config={chartConfig}>
-        <BarChart accessibilityLayer data={chartData}>
+        <BarChart
+          accessibilityLayer
+          data={chartData}
+          className="mx-auto aspect-square max-h-[350px]"
+        >
           <CartesianGrid vertical={false} />
           <XAxis
             dataKey="month"
