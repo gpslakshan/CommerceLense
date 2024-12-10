@@ -44,10 +44,10 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function TrafficBarChart() {
+export function CountryTrafficChart() {
   return (
     <AnalyticsCard
-      title="Traffic Bar Chart"
+      title="Traffic By Country"
       description="Showing Visitors From Different Countries"
     >
       <ChartContainer

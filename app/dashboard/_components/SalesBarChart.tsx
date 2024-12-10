@@ -32,7 +32,7 @@ const chartConfig = {
 export function SalesBarChart() {
   return (
     <AnalyticsCard
-      title="Sales Bar Chart"
+      title="Sales Overview"
       description="Showing Mobile & Desktop Sales"
     >
       <ChartContainer config={chartConfig}>

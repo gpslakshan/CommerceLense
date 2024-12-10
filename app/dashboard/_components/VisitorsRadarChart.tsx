@@ -35,7 +35,7 @@ const chartConfig = {
 export function VisitorsRadarChart() {
   return (
     <AnalyticsCard
-      title="Visitors Radar Chart"
+      title="Visitors Trends"
       description="Showing Visitors for Last 6 Months"
     >
       <ChartContainer

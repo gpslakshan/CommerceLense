@@ -43,10 +43,10 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function TrafficPieChart() {
+export function BrowserTrafficChart() {
   return (
     <AnalyticsCard
-      title="Traffic Pie Chart"
+      title="Traffic By Browser"
       description="Showing Visitors From Different Browsers"
     >
       <ChartContainer
