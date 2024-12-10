@@ -17,7 +17,7 @@ const AnalyticsCard = ({ title, description, children }: Props) => {
   return (
     <Card className="dark:bg-tertiary">
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="text-lg">{title}</CardTitle>
         <CardDescription className="text-primary">
           {description}
         </CardDescription>
