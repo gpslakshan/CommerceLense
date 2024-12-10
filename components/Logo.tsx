@@ -2,16 +2,16 @@
 
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useMenuStore } from "@/store/toggleMenuStore";
+import { SiGooglelens } from "react-icons/si";
 
 const Logo = () => {
   const { isCollapsed } = useMenuStore();
 
   return (
     <Link href="/" className="flex items-center gap-2">
-      <Image src="/logo-icon.svg" alt="logo" width={30} height={30} />
+      <SiGooglelens color="#2463EB" size={35} />
       <AnimatePresence initial={false}>
         {!isCollapsed && (
           <motion.h1
