@@ -169,3 +169,456 @@ export const ordersDummyData = [
   { id: "29", orderNumber: "1029", totalAmount: 340.5, date: 1746460800000 },
   { id: "30", orderNumber: "1030", totalAmount: 100.0, date: 1749139200000 },
 ];
+
+export const customersDummyData = [
+  {
+    createdAt: "2024-12-10T11:19:32.937Z",
+    name: "Ora Parker",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Russel_Torphy@yahoo.com",
+    orders: 75,
+    id: "1",
+  },
+  {
+    createdAt: "2024-12-09T22:12:33.160Z",
+    name: "Judy Schneider",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Ilene_DAmore@gmail.com",
+    orders: 74,
+    id: "2",
+  },
+  {
+    createdAt: "2024-12-09T13:52:26.318Z",
+    name: "Juan Muller",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Carolyne52@gmail.com",
+    orders: 54,
+    id: "3",
+  },
+  {
+    createdAt: "2024-12-10T02:40:29.776Z",
+    name: "Russell Stark",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Josie36@gmail.com",
+    orders: 25,
+    id: "4",
+  },
+  {
+    createdAt: "2024-12-09T13:38:41.095Z",
+    name: "Richard Harvey",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Cristian_Kautzer@yahoo.com",
+    orders: 91,
+    id: "5",
+  },
+  {
+    createdAt: "2024-12-09T15:36:16.538Z",
+    name: "Marcia Buckridge",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Eda.Hessel44@hotmail.com",
+    orders: 19,
+    id: "6",
+  },
+  {
+    createdAt: "2024-12-10T09:57:28.287Z",
+    name: "Trevor Ward",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Doyle_Vandervort@hotmail.com",
+    orders: 2,
+    id: "7",
+  },
+  {
+    createdAt: "2024-12-10T13:30:11.280Z",
+    name: "Blanche Stanton",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Rigoberto_Fadel@gmail.com",
+    orders: 93,
+    id: "8",
+  },
+  {
+    createdAt: "2024-12-10T13:24:25.846Z",
+    name: "Mable Abshire MD",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Ulices_Nader29@gmail.com",
+    orders: 35,
+    id: "9",
+  },
+  {
+    createdAt: "2024-12-10T08:19:06.435Z",
+    name: "Krista Haag",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Rigoberto_Jaskolski@hotmail.com",
+    orders: 1,
+    id: "10",
+  },
+  {
+    createdAt: "2024-12-09T18:35:08.812Z",
+    name: "Rudy Kris",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Amos.Heaney@yahoo.com",
+    orders: 77,
+    id: "11",
+  },
+  {
+    createdAt: "2024-12-09T23:05:01.542Z",
+    name: "Phil Wehner",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Aniyah_McClure@gmail.com",
+    orders: 65,
+    id: "12",
+  },
+  {
+    createdAt: "2024-12-09T19:52:40.029Z",
+    name: "Andy Mohr",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Dewitt88@yahoo.com",
+    orders: 32,
+    id: "13",
+  },
+  {
+    createdAt: "2024-12-09T16:55:49.959Z",
+    name: "Jeremiah Gutmann",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Darrick_Yundt@hotmail.com",
+    orders: 82,
+    id: "14",
+  },
+  {
+    createdAt: "2024-12-09T20:42:40.195Z",
+    name: "Hubert McGlynn",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Chelsie.Pouros@gmail.com",
+    orders: 59,
+    id: "15",
+  },
+  {
+    createdAt: "2024-12-10T10:28:10.665Z",
+    name: "Miss Benjamin Maggio",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Mercedes_Beahan72@gmail.com",
+    orders: 92,
+    id: "16",
+  },
+  {
+    createdAt: "2024-12-10T00:27:31.825Z",
+    name: "Lorenzo Pfannerstill",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Ardella_Heathcote@yahoo.com",
+    orders: 96,
+    id: "17",
+  },
+  {
+    createdAt: "2024-12-10T05:05:22.149Z",
+    name: "Amelia Mertz",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Myriam56@hotmail.com",
+    orders: 36,
+    id: "18",
+  },
+  {
+    createdAt: "2024-12-09T16:10:22.495Z",
+    name: "Jennifer Huels",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Lindsey.Haag@hotmail.com",
+    orders: 5,
+    id: "19",
+  },
+  {
+    createdAt: "2024-12-10T10:15:35.869Z",
+    name: "Orville Beahan",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Beaulah_Okuneva20@yahoo.com",
+    orders: 23,
+    id: "20",
+  },
+  {
+    createdAt: "2024-12-10T07:14:14.606Z",
+    name: "Edmond Waters",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Sigrid_Schinner81@yahoo.com",
+    orders: 45,
+    id: "21",
+  },
+  {
+    createdAt: "2024-12-09T19:37:13.073Z",
+    name: "Beulah Walker",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Kaya27@hotmail.com",
+    orders: 79,
+    id: "22",
+  },
+  {
+    createdAt: "2024-12-10T01:55:18.083Z",
+    name: "Delbert Thiel",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Jeanette.Abernathy@gmail.com",
+    orders: 69,
+    id: "23",
+  },
+  {
+    createdAt: "2024-12-10T08:24:28.953Z",
+    name: "Robin Kohler",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Isaac38@yahoo.com",
+    orders: 11,
+    id: "24",
+  },
+  {
+    createdAt: "2024-12-09T22:47:42.525Z",
+    name: "Gustavo Ebert III",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Barrett.Berge90@gmail.com",
+    orders: 22,
+    id: "25",
+  },
+  {
+    createdAt: "2024-12-10T03:52:23.833Z",
+    name: "Gloria Bednar MD",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Fred.Rath@hotmail.com",
+    orders: 16,
+    id: "26",
+  },
+  {
+    createdAt: "2024-12-09T16:22:35.929Z",
+    name: "Marian Bogisich",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Felicia83@yahoo.com",
+    orders: 67,
+    id: "27",
+  },
+  {
+    createdAt: "2024-12-09T14:18:21.901Z",
+    name: "Spencer Beer",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Brisa.Lehner@yahoo.com",
+    orders: 59,
+    id: "28",
+  },
+  {
+    createdAt: "2024-12-10T11:44:39.318Z",
+    name: "Clinton Gutkowski",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Hillary8@hotmail.com",
+    orders: 68,
+    id: "29",
+  },
+  {
+    createdAt: "2024-12-10T11:14:32.605Z",
+    name: "Ada Blanda",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Merle50@gmail.com",
+    orders: 52,
+    id: "30",
+  },
+  {
+    createdAt: "2024-12-10T12:42:18.335Z",
+    name: "Jill Bergstrom",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Katelin43@yahoo.com",
+    orders: 39,
+    id: "31",
+  },
+  {
+    createdAt: "2024-12-09T22:58:22.831Z",
+    name: "Bryan Sawayn",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Ari67@yahoo.com",
+    orders: 30,
+    id: "32",
+  },
+  {
+    createdAt: "2024-12-09T15:21:57.410Z",
+    name: "Brent Padberg",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Elnora3@yahoo.com",
+    orders: 88,
+    id: "33",
+  },
+  {
+    createdAt: "2024-12-09T18:47:47.981Z",
+    name: "Miss Thelma Hand",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Joany.Ratke74@gmail.com",
+    orders: 86,
+    id: "34",
+  },
+  {
+    createdAt: "2024-12-09T15:18:03.314Z",
+    name: "Claude Haley",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Freddy.Koelpin48@hotmail.com",
+    orders: 42,
+    id: "35",
+  },
+  {
+    createdAt: "2024-12-10T11:35:38.933Z",
+    name: "Dr. Irving Bruen",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Delilah_Murphy@yahoo.com",
+    orders: 16,
+    id: "36",
+  },
+  {
+    createdAt: "2024-12-09T15:30:53.793Z",
+    name: "Annie Ferry",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Patricia99@hotmail.com",
+    orders: 32,
+    id: "37",
+  },
+  {
+    createdAt: "2024-12-10T04:09:27.276Z",
+    name: "Delia Ankunding",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Oswald42@hotmail.com",
+    orders: 0,
+    id: "38",
+  },
+  {
+    createdAt: "2024-12-10T10:37:16.700Z",
+    name: "Stuart Metz",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Ewell39@gmail.com",
+    orders: 65,
+    id: "39",
+  },
+  {
+    createdAt: "2024-12-10T09:06:51.498Z",
+    name: "Mrs. Bertha Dicki",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Lucio_Botsford11@yahoo.com",
+    orders: 30,
+    id: "40",
+  },
+  {
+    createdAt: "2024-12-09T16:20:53.978Z",
+    name: "Herman Schiller",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Tabitha_Greenholt53@yahoo.com",
+    orders: 32,
+    id: "41",
+  },
+  {
+    createdAt: "2024-12-10T05:57:01.967Z",
+    name: "Ernestine Harber",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Clarabelle75@yahoo.com",
+    orders: 78,
+    id: "42",
+  },
+  {
+    createdAt: "2024-12-09T21:30:14.529Z",
+    name: "Grant Lynch I",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Aliya1@yahoo.com",
+    orders: 24,
+    id: "43",
+  },
+  {
+    createdAt: "2024-12-10T03:43:20.182Z",
+    name: "Sonja White",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Tanner.Hills@gmail.com",
+    orders: 61,
+    id: "44",
+  },
+  {
+    createdAt: "2024-12-10T04:35:27.700Z",
+    name: "Nathaniel Emmerich",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Kiana12@gmail.com",
+    orders: 45,
+    id: "45",
+  },
+  {
+    createdAt: "2024-12-10T12:57:14.584Z",
+    name: "Dr. Irma Jaskolski",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Mariane.Parisian53@hotmail.com",
+    orders: 83,
+    id: "46",
+  },
+  {
+    createdAt: "2024-12-10T01:56:42.348Z",
+    name: "Jordan Bosco",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Beverly.Weissnat@yahoo.com",
+    orders: 16,
+    id: "47",
+  },
+  {
+    createdAt: "2024-12-10T10:10:48.897Z",
+    name: "Mattie Turcotte",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Jany_Leuschke@hotmail.com",
+    orders: 71,
+    id: "48",
+  },
+  {
+    createdAt: "2024-12-10T07:38:19.618Z",
+    name: "Emmett Reinger",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Fiona_Heller45@gmail.com",
+    orders: 36,
+    id: "49",
+  },
+  {
+    createdAt: "2024-12-09T13:50:56.229Z",
+    name: "Jodi Bruen",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "Electa_Boyle65@hotmail.com",
+    orders: 69,
+    id: "50",
+  },
+];
