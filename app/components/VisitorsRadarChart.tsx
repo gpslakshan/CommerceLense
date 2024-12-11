@@ -10,7 +10,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import AnalyticsCard from "@/app/dashboard/_components/AnalyticsCard";
+import AnalyticsCard from "@/app/components/AnalyticsCard";
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },

@@ -8,25 +8,26 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { DataTable } from "@/components/ui/data-table";
-import { columns } from "@/app/dashboard/products/columns";
-import { ProductsDummyData } from "@/constants/data";
+import { ordersDummyData } from "@/constants/data";
+import { columns } from "@/app/orders/columns";
 
-const ProductsPage = () => {
+const OrdersPage = () => {
   return (
     <section className="p-6">
       <Card className="dark:bg-tertiary">
         <CardHeader>
-          <CardTitle className="text-lg">Products</CardTitle>
+          <CardTitle className="text-lg">Orders</CardTitle>
           <CardDescription className="text-primary">
-            Showing All Products
+            Showing All Orders
           </CardDescription>
-          <Button className="mb-3 w-fit">Add New Product</Button>
+          <Button className="mb-3 w-fit">Create New Order</Button>
         </CardHeader>
         <CardContent>
-          <DataTable columns={columns} data={ProductsDummyData} />
+          <DataTable columns={columns} data={ordersDummyData} />
         </CardContent>
       </Card>
     </section>
   );
 };
-export default ProductsPage;
+
+export default OrdersPage;

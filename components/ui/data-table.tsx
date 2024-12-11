@@ -47,10 +47,10 @@ export function DataTable<TData, TValue>({
     },
   });
 
-  const dashboardRoute = useRouteCheck("/dashboard");
-  const customersRoute = useRouteCheck("/dashboard/customers");
-  const ordersRoute = useRouteCheck("/dashboard/orders");
-  const productsRoute = useRouteCheck("/dashboard/products");
+  const dashboardRoute = useRouteCheck("/");
+  const customersRoute = useRouteCheck("/customers");
+  const ordersRoute = useRouteCheck("/orders");
+  const productsRoute = useRouteCheck("/products");
 
   let columnName;
 

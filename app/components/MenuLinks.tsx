@@ -14,11 +14,11 @@ import { motion } from "framer-motion";
 import { useMenuStore } from "@/store/toggleMenuStore";
 
 const menuItems = [
-  { href: "/dashboard", label: "Dashboard", icon: House },
-  { href: "/dashboard/customers", label: "Customers", icon: Users },
-  { href: "/dashboard/orders", label: "Orders", icon: Package },
-  { href: "/dashboard/products", label: "Products", icon: Shirt },
-  { href: "/dashboard/team", label: "Team", icon: Component },
+  { href: "/", label: "Dashboard", icon: House },
+  { href: "/customers", label: "Customers", icon: Users },
+  { href: "/orders", label: "Orders", icon: Package },
+  { href: "/products", label: "Products", icon: Shirt },
+  { href: "/team", label: "Team", icon: Component },
 ];
 
 const linkVariants = {

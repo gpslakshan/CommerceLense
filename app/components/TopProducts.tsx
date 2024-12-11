@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import AnalyticsCard from "@/app/dashboard/_components/AnalyticsCard";
+import AnalyticsCard from "@/app/components/AnalyticsCard";
 import { ColumnDef } from "@tanstack/react-table";
 import Image from "next/image";
 import { DataTable } from "@/components/ui/data-table";

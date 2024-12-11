@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import NavBar from "@/app/NavBar";
+import Sidebar from "@/app/Sidebar";
+import React from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +34,10 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system">
           <NavBar />
-          <div>{children}</div>
+          <div className="flex">
+            <Sidebar />
+            <main className="min-h-screen flex-1">{children}</main>
+          </div>
         </ThemeProvider>
       </body>
     </html>

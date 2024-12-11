@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { customersDummyData } from "@/constants/data";
-import { columns } from "@/app/dashboard/customers/columns";
 import {
   Card,
   CardContent,
@@ -10,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
+import { columns } from "@/app/customers/columns";
 
 const CustomersPage = () => {
   return (

@@ -11,7 +11,7 @@ const LogoutButton = () => {
 
   return (
     <Button asChild>
-      <Link href="/" className="flex gap-2">
+      <Link href="/public" className="flex gap-2">
         <LogOut />
         <span className={`max-md:hidden ${isCollapsed && "hidden"}`}>
           Log Out
