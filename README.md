@@ -2,6 +2,7 @@
 
 This project is a modern, responsive analytics dashboard for e-commerce businesses. Built with **Next.js**, it provides an elegant and interactive UI styled with **Tailwind CSS**, **ShadCn UI components**, and animations powered by **Framer Motion**. The dashboard uses static data and focuses on front-end functionalities.
 
+![E-Commerce Analytics Dashboard](https://github.com/gpslakshan/CommerceLense/blob/main/public/thumbnail.png)
 ---
 
 ## Features
