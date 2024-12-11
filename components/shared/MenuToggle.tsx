@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { ChevronsLeft, ChevronsRight } from "lucide-react";
 import { useMenuStore } from "@/store/toggleMenuStore";
 import { motion } from "framer-motion";

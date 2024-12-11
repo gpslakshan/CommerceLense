@@ -1,7 +1,7 @@
 import React from "react";
 import { Users, DollarSign, Package, Shirt } from "lucide-react";
-import AnalyticsCard from "@/app/components/AnalyticsCard";
-import SummaryCard from "@/app/components/SummaryCard";
+import AnalyticsCard from "@/components/dashboard/AnalyticsCard";
+import SummaryCard from "@/components/dashboard/SummaryCard";
 
 const summaryData = [
   {

@@ -7,7 +7,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import AnalyticsCard from "@/app/components/AnalyticsCard";
+import AnalyticsCard from "@/components/dashboard/AnalyticsCard";
 
 const chartData = [
   { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },

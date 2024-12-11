@@ -3,8 +3,8 @@
 import React from "react";
 import { useMenuStore } from "@/store/toggleMenuStore";
 import { motion } from "framer-motion";
-import LogoutButton from "./components/LogoutButton";
-import MenuLinks from "./components/MenuLinks";
+import LogoutButton from "../authentication/LogoutButton";
+import MenuLinks from "./MenuLinks";
 
 const Sidebar = () => {
   const { isCollapsed } = useMenuStore();

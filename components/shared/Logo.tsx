@@ -10,7 +10,7 @@ const Logo = () => {
   const { isCollapsed } = useMenuStore();
 
   return (
-    <Link href="/" className="flex items-center gap-2">
+    <Link href="/public" className="flex items-center gap-2">
       <SiGooglelens color="#2463EB" size={35} />
       <AnimatePresence initial={false}>
         {!isCollapsed && (

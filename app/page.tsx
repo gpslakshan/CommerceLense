@@ -1,11 +1,11 @@
 import React from "react";
-import Summary from "@/app/components/Summary";
-import { SalesBarChart } from "@/app/components/SalesBarChart";
-import { VisitorsRadarChart } from "@/app/components/VisitorsRadarChart";
-import TopProducts from "@/app/components/TopProducts";
-import { BrowserTrafficChart } from "@/app/components/BrowserTrafficChart";
-import TopCustomers from "@/app/components/TopCustomers";
-import { CountryTrafficChart } from "@/app/components/CountryTrafficChart";
+import Summary from "@/components/dashboard/Summary";
+import { SalesBarChart } from "@/components/dashboard/SalesBarChart";
+import { VisitorsRadarChart } from "@/components/dashboard/VisitorsRadarChart";
+import TopProducts from "@/components/dashboard/TopProducts";
+import { BrowserTrafficChart } from "@/components/dashboard/BrowserTrafficChart";
+import TopCustomers from "@/components/dashboard/TopCustomers";
+import { CountryTrafficChart } from "@/components/dashboard/CountryTrafficChart";
 
 const DashboardIndexPage = () => {
   return (

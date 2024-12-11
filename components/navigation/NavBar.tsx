@@ -1,8 +1,8 @@
 import React from "react";
-import { ModeToggle } from "@/components/ModeToggle";
+import { ModeToggle } from "@/components/shared/ModeToggle";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import MenuToggle from "@/components/MenuToggle";
-import Logo from "@/components/Logo";
+import MenuToggle from "@/components/shared/MenuToggle";
+import Logo from "@/components/shared/Logo";
 
 const NavBar = () => {
   return (
