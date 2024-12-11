@@ -622,3 +622,60 @@ export const customersDummyData = [
     id: "50",
   },
 ];
+
+export const teamDummyData = [
+  {
+    name: "Carol Runte",
+    image:
+      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: true,
+    isApproved: true,
+    email: "Aurelie_Kertzmann@yahoo.com",
+    id: "1",
+  },
+  {
+    name: "Marie Emmerich",
+    image:
+      "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: false,
+    isApproved: true,
+    email: "Alexandrine71@yahoo.com",
+    id: "2",
+  },
+  {
+    name: "Adam Murray",
+    image:
+      "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: true,
+    isApproved: true,
+    email: "Branson29@hotmail.com",
+    id: "3",
+  },
+  {
+    name: "Dr. Jo O'Kon PhD",
+    image:
+      "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: false,
+    isApproved: false,
+    email: "Tom9@yahoo.com",
+    id: "4",
+  },
+  {
+    name: "Ms. Winifred Hegmann",
+    image:
+      "https://images.pexels.com/photos/227294/pexels-photo-227294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: false,
+    isApproved: false,
+    email: "Lucinda_Dickens42@hotmail.com",
+    id: "5",
+  },
+  {
+    name: "Hannah Haag",
+    image:
+      "https://images.pexels.com/photos/4063856/pexels-photo-4063856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isAdmin: false,
+    isApproved: false,
+    email: "Salvador_Block28@hotmail.com",
+    id: "6",
+  },
+];
