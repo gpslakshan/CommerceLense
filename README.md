@@ -20,5 +20,6 @@ This project is a modern, responsive analytics dashboard for e-commerce business
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **ShadCn UI Components**: Prebuilt, accessible, and customizable UI components.
 - **Framer Motion**: Powerful library for animations and gestures.
+- **Zustand**: Lightweight state management library for React.
 
 ---
